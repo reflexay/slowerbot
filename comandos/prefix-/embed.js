@@ -17,12 +17,7 @@ const saySelf = args.join(" ");
       },
       title: client.user.username,
       url: "",
-      description: "",
-      fields: [{
-          name: "𛲡",
-          value: `${saySelf}`
-        }
-      ],
+      description: `${saySelf}`,
       timestamp: new Date(),
       footer: {
         icon_url: client.user.avatarURL,
