@@ -15,7 +15,7 @@ if(!reason)
 member.kick(reason)
   .catch(error => message.reply(`Sorry ${message.author} não posso expulsar, Error: ${error}`));
   message.delete().catch(O_o=>{}); 
-  client.guilds.get(member.guild.id).channels.get("429474151791722496").send({"embed": {
+  client.guilds.get("375817364786249749").channels.get("429474151791722496").send({"embed": {
       "title": client.user.username,
       "description": "Um usuario foi punido.",
       "url": "",
