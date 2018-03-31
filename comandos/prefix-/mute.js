@@ -14,7 +14,7 @@ if(!reason)
 
   member.guild.members.get(member.id).addRole(member.guild.roles.find("name", "Mutado").id);
 message.delete().catch(O_o=>{});
-  client.guilds.get(member.guild.id).channels.get("429474151791722496").send({"embed": {
+  client.guilds.get("375817364786249749").channels.get("429474151791722496").send({"embed": {
       "title": client.user.username,
       "description": "Um usuario foi punido.",
       "url": "",
