@@ -7,7 +7,7 @@ let aviso = args.slice(0).join(' ');
 if(!aviso)
 return message.reply("diga oque devo anunciar.");
 message.delete().catch(O_o=>{}); 
-client.guilds.get(member.guild.id).channels.get("388422314133291012").send("@everyone",{embed: {
+client.guilds.get("375817364786249749").channels.get("388422314133291012").send("@everyone",{embed: {
   color: 3447003,
   author: {
     name: `${message.author}`,
